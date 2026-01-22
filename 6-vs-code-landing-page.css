@@ -6,28 +6,25 @@ body{
     margin:0;
     font-family: outfit;
 }
-
 #topbar_container{
     display: flex;
     min-width: 100vw;
 }
 
 #topbar img{
-    height: 15px;
+    height: 20px;
     width: auto;
     justify-content: flex-start;
 }
-
 #topbar b{
     flex: 1;    
-    font-weight: 900;
+    font-weight: 600;
+    color: #e6eefa;
 }
-
 #topbar a:hover{
     color: #e6eefa;
     cursor: pointer;
 }
-
 #topbar b:hover{
     color: #e6eefa;
     cursor: pointer;
@@ -38,7 +35,6 @@ body{
     color:#9ba3b4;
     text-decoration: none;
 }
-
 #topbar{
     flex:1;
     background-color: #0d1117;
@@ -50,6 +46,7 @@ body{
     justify-content: flex-start;
     gap: 20px;
     font-size: 20px;
+
 }
 
 #text-container{
@@ -58,12 +55,13 @@ body{
     margin : 10px 35px;
     justify-content: center;
 }
-
 #textbox{
+
     background-color: #263853;
     font-size: 20px;
     color: #e6eefa;
 }
+
 
 #banner{
     box-shadow: 0 0 10px 2px #263853;
@@ -71,8 +69,8 @@ body{
     justify-content: center;
     gap:10px;
     padding: 5px 5px;
-}
 
+}
 #topbar-button {
     background-color: dodgerblue;
     color:#e6eefa;
@@ -83,13 +81,14 @@ body{
     font-size: 20px;
     min-width: 60px;
     min-height: 20px;
-}
 
+}
 #topbar-button:hover {
-    text-shadow: 0 0 2px 2px ;
+    text-shadow: 0 0 2px 2px ; /* outer border */
     cursor: pointer;
     background-color: #263853;
 }
+
 
 #hero-container{
     display: flex;
@@ -97,6 +96,7 @@ body{
     align-items: center;
     text-align: center;
 }
+
 
 #hero-section{
     background-color: #0d1117;
@@ -118,6 +118,7 @@ body{
     align-items: center;
     margin-bottom: 50px;
     background: linear-gradient(#0d1117,#263853,#0d1117);
+    
 }
 
 #hero-buttton{
@@ -130,7 +131,6 @@ body{
     cursor: pointer;
     transition: box-shadow 0.3s ease-in-out;
 }
-
 #hero-buttton:hover{
     box-shadow: 0px 0 0px 5px white;
     border: 3px solid #0d1117;
@@ -151,12 +151,12 @@ body{
 
 #left{
     flex: 1;
+
 }
 
 #left h1{
     font-weight: 600;
 }
-
 #right{
     flex: 2;
 }
@@ -164,6 +164,8 @@ body{
 #Grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
+    
 }
 
 #lang img{
